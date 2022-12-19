@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "vc-final"
+version = "0.1.0"
+description = ""
+authors = ["yalr098 <yvesromero1998@gmail.com>"]
+readme = "README.md"
+packages = [{include = "vc_final"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+opencv-python = "^4.6.0.66"
+torch = "^1.13.0"
+facenet-pytorch = "^2.5.2"
+matplotlib = "^3.6.2"
+scikit-image = "^0.19.3"
+phasepack = "^1.5"
+scikit-learn = "^1.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
